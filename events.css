@@ -1,0 +1,147 @@
+/*navbar*/
+
+.navbar {
+    background-color: #010151 !important;
+}
+
+.navbar_aulogo {
+    width: 110px;
+    height: 100px;
+    margin-right: 20px;
+}
+.navbar_incubelogo{
+    width:110px;
+    height: 100px;
+    margin-left: 20px;
+} 
+
+.nav-item {
+    padding: 0px 20px;
+    color: white !important;
+}
+
+.navbar-nav, .nav-link, .nav-item, .navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    padding: 0px 15px;
+}
+
+
+/*events*/
+.card {
+    width:90%; /* Set the maximum width for the card */
+    margin: 0 auto; /* Center the card horizontally */
+    margin-top: 75px; /* Add 50px of top margin */
+    transition: transform 0.3s;
+    margin-bottom: 100px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+/* CSS for adjusting text size */
+.card-title {
+    font-size: 1.8rem; /* Change the font size of the card title */
+    font-weight: bolder;
+  }
+  
+  .card-text {
+    font-size: 1.3rem; /* Change the font size of the card text */
+  }
+  
+  /* CSS for adjusting picture size in the carousel */
+  .carousel-item img {
+    max-width: 100%; /* Ensure images within the carousel fit within their container */
+    height: auto; /* Maintain aspect ratio of images */
+    margin-top: 50px;
+    margin-bottom: 75px;
+  }
+
+
+  
+hr.dotted {
+    border-top: 5px dotted #000001;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .row a{
+      text-decoration: none;
+  }
+  
+
+
+
+
+/*footer*/
+
+footer{
+    background-color: #010151;
+    margin-top: 100px;
+}
+
+.footer_incubelogo{
+    width:110px;
+    height:100px;
+}
+.contact_us,.phone,.email{
+    color: white;
+}
+
+
+
+/*responsive*/
+
+/*footer*/
+
+@media (max-width:767px){
+    
+  .container {
+    padding: 0;
+  }
+
+  .col-12.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer_incubelogo {
+    width: 80px;
+    height: 70px;
+  }
+
+  .contact_us {
+    font-size: 1.5rem;
+  }
+
+  .phone, .email {
+    font-size: 1rem;
+  }
+
+  .list-unstyled h3 {
+    font-size: 1.5rem;
+  }
+
+  .list-unstyled li a {
+    font-size: 1rem;
+  }
+
+  .bi.fs-4.mx-3 {
+    font-size: 1.5rem;
+  }
+}

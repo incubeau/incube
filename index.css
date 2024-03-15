@@ -1,0 +1,323 @@
+
+/*navbar*/
+
+.navbar {
+    background-color: #010151 !important;
+}
+
+.navbar_aulogo {
+    width: 130px;
+    height: 100px;
+    margin-right: 20px;
+}
+.navbar_incubelogo{
+    width:110px;
+    height: 100px;
+    margin-left: 20px;
+} 
+
+.nav-item {
+    padding: 0px 20px;
+    color: white !important;
+}
+
+.navbar-nav, .nav-link, .nav-item, .navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    padding: 0px 15px;
+}
+
+
+
+
+/*incube motive*/
+
+.first_div{
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    height: 600px;
+  }
+  .first_div img {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+  }
+
+  .second_div {
+    position: absolute;
+    top:66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  
+  .second_div h1{
+    font-size: 6rem;
+    margin: 0;
+    font-weight: bolder;
+  }
+  
+  .second_div h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+
+
+
+/*home carousel*/
+
+#carouselExampleIndicators{
+    width: 80%;
+    height: 40%;
+}
+
+.home_carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrap {
+    display: flex;
+  }
+  
+  .third_div {
+    flex: 0.8;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-top: 35px;
+  }
+  
+  .carousel_div {
+    flex: 0.9;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .third_div h1{
+    font-weight: bolder;
+    padding-top: 40px;
+  }
+  .third_div p{
+    font-size: larger;
+    padding-top: 15px;
+    font-size:25px;
+  }
+
+
+
+/*vision and mission*/
+
+.fourth_div{
+  padding-top: 50px;
+}
+.fourth_div h1{
+  font-weight: bolder;
+  padding-top: 50px;
+  font-size:50px;
+}
+.fourth_div p{
+  font-size: large;
+  padding-top: 15px;
+  font-size:28px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.fifth_div{
+  padding-top: 25px;
+}
+.fifth_div h1{
+  font-weight: bolder;
+  padding-top: 50px;
+  font-size:50px;
+}
+.fifth_div p{
+  font-size: large;
+  padding-top: 15px;
+  font-size:28px;
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 100px;
+}
+
+.sixth_div img{
+  margin-bottom: 15px;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #010151;
+    margin-top: 100px;
+}
+
+.footer_incubelogo{
+    width:110px;
+    height:100px;
+}
+.contact_us,.phone,.email{
+    color: white;
+}
+
+
+
+
+
+
+
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+
+
+  /*incube motive*/
+
+  .first_div {
+    height: auto; /* Allow the first_div's height to adjust based on content */
+  }
+
+  .first_div img {
+    height: auto;
+  }
+
+  .second_div {
+    position: absolute;
+    top: 50%; /* Adjust the top position to center it vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 60%; /* Adjust the width to make it smaller */
+  }
+
+  .second_div h1 {
+    font-size: 2.5rem; /* Adjust the font size for smaller screens */
+  }
+
+  .second_div h2 {
+    font-size: 1rem; /* Adjust the font size for smaller screens */
+    margin: 10px 0;
+  }
+
+
+  /*home carousel*/
+
+  .third_div {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .carousel_div {
+    padding: 10px;
+  }
+
+  .third_div h1 {
+    padding-top: 20px;
+  }
+
+  .third_div p {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  /* Move the carousel below "What Exactly is Incube" text */
+  .content-wrap {
+    flex-direction: column-reverse;
+  }
+  
+  .third_div {
+    order: 2;
+  }
+  
+  .carousel_div {
+    order: 1;
+  }
+
+
+  /*mission and vision*/
+
+  .fourth_div h1 {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .fourth_div p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .fifth_div h1 {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+
+  .fifth_div p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+
+
+  /*footer*/
+
+  .container {
+    padding: 0;
+  }
+
+  .col-12.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer_incubelogo {
+    width: 80px;
+    height: 70px;
+  }
+
+  .contact_us {
+    font-size: 1.5rem;
+  }
+
+  .phone, .email {
+    font-size: 1rem;
+  }
+
+  .list-unstyled h3 {
+    font-size: 1.5rem;
+  }
+
+  .list-unstyled li a {
+    font-size: 1rem;
+  }
+
+  .bi.fs-4.mx-3 {
+    font-size: 1.5rem;
+  }
+}

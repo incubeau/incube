@@ -1,0 +1,127 @@
+/*navbar*/
+
+.navbar {
+    background-color: #010151 !important;
+}
+
+.navbar_aulogo {
+    width: 110px;
+    height: 100px;
+    margin-right: 20px;
+}
+.navbar_incubelogo{
+    width:110px;
+    height: 100px;
+    margin-left: 20px;
+} 
+
+.nav-item {
+    padding: 0px 20px;
+    color: white !important;
+}
+
+.navbar-nav, .nav-link, .nav-item, .navbar-brand{
+    color: white !important;
+}
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item {
+    padding: 0px 15px;
+}
+
+
+.card{
+  width: 40%;
+  margin-bottom: 50px;
+}
+
+
+.heading{
+    font-weight: bolder;
+    padding-top: 30px;
+}
+
+.subheading{
+  font-weight: bolder;
+}
+
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Optional: Adds padding around the cards */
+  margin-top: 20px; /* Optional: Adjusts the space between header and cards */
+}
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  /*footer*/
+footer{
+    background-color: #010151;
+    margin-top: 100px;
+}
+
+.footer_incubelogo{
+    width:110px;
+    height:100px;
+}
+.contact_us,.phone,.email{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    /*footer*/
+
+  .container {
+    padding: 0;
+  }
+
+  .col-12.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer_incubelogo {
+    width: 80px;
+    height: 70px;
+  }
+
+  .contact_us {
+    font-size: 1.5rem;
+  }
+
+  .phone, .email {
+    font-size: 1rem;
+  }
+
+  .list-unstyled h3 {
+    font-size: 1.5rem;
+  }
+
+  .list-unstyled li a {
+    font-size: 1rem;
+  }
+
+  .bi.fs-4.mx-3 {
+    font-size: 1.5rem;
+  }
+}
+  
