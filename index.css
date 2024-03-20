@@ -195,9 +195,6 @@ footer{
     height: auto; /* Allow the first_div's height to adjust based on content */
   }
 
-  .first_div img {
-    height: 150%;
-  }
 
   .second_div {
     position: absolute;
