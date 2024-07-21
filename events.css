@@ -57,6 +57,7 @@
   
   .card-text {
     font-size: 1.3rem; /* Change the font size of the card text */
+    text-align: justify;
   }
   
   /* CSS for adjusting picture size in the carousel */
@@ -108,6 +109,12 @@ footer{
 /*footer*/
 
 @media (max-width:767px){
+  *{
+    overflow-x: hidden;
+  }
+  .card-text{
+    text-align: justify;
+  }
     
   .container {
     padding: 0;

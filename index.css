@@ -190,6 +190,9 @@ footer{
 
 
   /*incube motive*/
+*{
+  overflow-x: hidden;
+}  
 
   .first_div {
     height: auto; /* Allow the first_div's height to adjust based on content */
