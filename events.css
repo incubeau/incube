@@ -38,9 +38,9 @@
 
 /*events*/
 .card {
-    width:90%; /* Set the maximum width for the card */
-    margin: 0 auto; /* Center the card horizontally */
-    margin-top: 75px; /* Add 50px of top margin */
+    width:90%; 
+    margin: 0 auto; 
+    margin-top: 75px; 
     transition: transform 0.3s;
     margin-bottom: 100px;
 }
@@ -51,19 +51,19 @@
 
 /* CSS for adjusting text size */
 .card-title {
-    font-size: 1.8rem; /* Change the font size of the card title */
+    font-size: 1.8rem;
     font-weight: bolder;
   }
   
   .card-text {
-    font-size: 1.3rem; /* Change the font size of the card text */
+    font-size: 1.3rem; 
     text-align: justify;
   }
   
   /* CSS for adjusting picture size in the carousel */
   .carousel-item img {
-    max-width: 100%; /* Ensure images within the carousel fit within their container */
-    height: auto; /* Maintain aspect ratio of images */
+    max-width: 100%; 
+    height: auto; 
     margin-top: 50px;
     margin-bottom: 75px;
   }

@@ -201,17 +201,16 @@ margin-bottom: 20px;
     position: absolute;
     left: -50%;
     top: 9px;
-    z-index: -1; /*put it behind the numbers*/
+    z-index: -1; 
     }
     
     #progressbar li:first-child:after {
-    /*connector not needed before the first step*/
+    
     content: none;
     }
 
     
-    /*marking active/completed steps green*/
-    /*The number of the step and the connector before it = green*/
+ 
     #progressbar li.active:before, #progressbar li.active:after {
     background: #ee0979;
     color: white;
@@ -224,12 +223,12 @@ margin-bottom: 20px;
 
     /*radio input*/
 
-    /* Hide default radio buttons */
+   
 .radio-group input[type="radio"] {
   display: none;
 }
 
-/* Style the label to create custom radio buttons */
+
 .radio-group label {
   display: inline-block;
   margin-right: 15px;

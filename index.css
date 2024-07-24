@@ -194,28 +194,28 @@ footer{
 }  
 
   .first_div {
-    height: auto; /* Allow the first_div's height to adjust based on content */
+    height: auto; 
   }
 
 
   .second_div {
     position: absolute;
-    top: 50%; /* Adjust the top position to center it vertically */
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    width: 60%; /* Adjust the width to make it smaller */
+    width: 60%; 
   }
 
   .second_div h1 {
-    font-size: 2.5rem; /* Adjust the font size for smaller screens */
+    font-size: 2.5rem; 
   }
 
   .second_div h2 {
-    font-size: 1rem; /* Adjust the font size for smaller screens */
+    font-size: 1rem; 
     margin: 10px 0;
   }
 
@@ -240,7 +240,6 @@ footer{
     padding-top: 10px;
   }
 
-  /* Move the carousel below "What Exactly is Incube" text */
   .content-wrap {
     flex-direction: column-reverse;
   }
